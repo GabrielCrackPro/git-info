@@ -6,7 +6,7 @@
 
 A webpage with info and examples of how to use git commands
 
-## TODO
+## TODO
 
 - [x] Add get started page
 - [ ] Add repositories info page
