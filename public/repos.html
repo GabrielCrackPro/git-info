@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitInfo | Repositories</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fab fa-git-alt"></i> GitInfo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="repos.html"
+                ><i class="fas fa-code"></i> Repositories</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-terminal"></i> Commands</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/GabrielCrackPro/git-info"
+                target="blank"
+                ><i class="fab fa-github"></i> Repository</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="repo-info container text-center">
+      <h1>What's a repository?</h1>
+      <p>A repository is a place where you can store your code.</p>
+      <h1 class="bg-dark text-white">Clasification</h1>
+      <ul class="list-group">
+        <li class="list-group-item bg-dark text-white border border-white">
+          <span class="fw-bold">Public</span> - Anyone can see and clone and
+          fork the repository.
+        </li>
+        <li class="list-group-item bg-dark text-white border border-white">
+          <span class="fw-bold">Private</span> - Only you can see and clone the
+          repository.
+        </li>
+        <li class="list-group-item bg-dark text-white border border-white">
+          <span class="fw-bold">Template</span> - A repository that is used to
+          create new repositories.
+        </li>
+      </ul>
+      <h1 class="bg-dark text-white mt-2">Creation</h1>
+      <p class="bg-dark text-white">
+        To create a new repository follow this steps:
+      </p>
+      <ol class="list-group">
+        <li class="list-group-item bg-dark text-white border border-white">
+          Go to repositories in the top menu and click on the
+          <button class="btn btn-sm btn-success">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-repo"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="rgb(255, 255, 255)"
+                d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
+              ></path></svg
+            >New
+          </button>
+          button in the top right
+        </li>
+        <li class="list-group-item bg-dark text-white border border-white">
+          <p>This screen will appear</p>
+          <img
+            src="img/repo-creation.png"
+            alt="repo creation"
+            height="400"
+            width="400"
+          />
+        </li>
+        <ol>
+          <li class="list-group-item bg-dark text-white border border-white">
+            <span class="fw-bold">Name</span> Just type the name of the
+            repository
+          </li>
+          <li class="list-group-item bg-dark text-white border border-white">
+            <span class="fw-bold">Description</span> Just type the description
+            of the repository
+          </li>
+          <li class="list-group-item bg-dark text-white border border-white">
+            <span class="fw-bold">Visibility</span> Select the visibility of the
+            repository (public or private)
+          </li>
+          <li class="list-group-item bg-dark text-white border border-white">
+            <span class="fw-bold">Add README file</span> Check this option if
+            you want to add a README.md file to the repository
+            <br />
+            This file can be used to explain the repository
+          </li>
+          <li class="list-group-item bg-dark text-white border border-white">
+            <span class="fw-bold">Choose a license</span> Check this option if
+            you want to select a license for the repository
+            <br />
+            The license determines the permissions of the repository
+          </li>
+          <li class="list-group-item bg-dark text-white border border-white">
+            Click on the
+            <button class="btn btn-sm btn-success">Create repository</button>
+            button to finish the creation
+          </li>
+        </ol>
+        <li class="list-group-item bg-dark text-white border border-white">
+          Click <a href="#" class="link-secondary">here</a> to go to comands
+          page
+        </li>
+      </ol>
+    </div>
+    <footer class="positon-absolute bottom-0 w-100 bg-dark">
+      <div class="text-center text-white">
+        <p>
+          Made with ❤️ by
+          <a
+            href="http://github.com/GabrielCrackPro"
+            target="blank"
+            class="link-light"
+            >@GabrielCrackPro</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
