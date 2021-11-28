@@ -9,7 +9,7 @@ A webpage with info and examples of how to use git commands
 ## TODO
 
 - [x] Add get started page
-- [ ] Add repositories info page
+- [x] Add repositories info page
 - [ ] Add comands info page
 - [ ] Debug 🔧
 - [ ] Deploy 🌏
